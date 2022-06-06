@@ -1372,7 +1372,7 @@ body {
     background: $dark-color;
     top: 1.3vmin;
     left: 16.5vmin;
-    transform: rotate(-7deg) skew(20deg);
+    transform: rotate(-7deg) skewX(20deg);
     border-radius: 8.6vmin 0 0 0;
 
     &::before {
@@ -1433,5 +1433,270 @@ body {
     left: 21.8vmin;
     transform: skewX(-48deg);
     border-radius: 0 0 100% 0;
+
+    &::before {
+      width: 1.4vmin;
+      height: 1.6vmin;
+      background: $bg-color;
+      top: -0.8vmin;
+      left: 1.55vmin;
+      transform: skewY(-40deg) skewX(10deg);
+    }
+
+    &::after {
+      width: 4vmin;
+      height: 0.5vmin;
+      background: $bg-color;
+      top: -0.3vmin;
+      left: -1.7vmin;
+      transform: rotate(-3deg);
+    }
+  }
+
+  &-4 {
+    z-index: 2;
+    width: 1.25vmin;
+    height: 1.2vmin;
+    background: $bg-color;
+    top: -12.9vmin;
+    left: 27.9vmin;
+    transform: skewX(-48deg);
+    border-radius: 0 0 90% 0;
+
+    &::before {
+      width: 1vmin;
+      height: 1.4vmin;
+      background: $bg-color;
+      top: -0.1vmin;
+      left: 1.6vmin;
+      transform: skewX(5deg) skewY(5deg);
+    }
+
+    &::after {
+      width: 3vmin;
+      height: 0.5vmin;
+      background: $bg-color;
+      top: -0.2vmin;
+      left: -1vmin;
+      transform: rotate(-8deg);
+    }
+  }
+
+  &-5 {
+    z-index: 2;
+    width: 0.5vmin;
+    height: 1vmin;
+    background: $bg-color;
+    top: -13.5vmin;
+    left: 30.8vmin;
+    transform: rotate(5deg);
+
+    &::before {
+      width: 0.8vmin;
+      height: 2vmin;
+      background: $bg-color;
+      top: -0.3vmin;
+      left: 0.35vmin;
+      transform: rotate(60deg);
+      border-radius: 0 0 0 100%;
+    }
+
+    &::after {
+      width: 4vmin;
+      height: 4vmin;
+      background: $bg-color;
+      top: -0.1vmin;
+      left: 0.4vmin;
+      transform: skewX(-40deg);
+    }
+  }
+
+  &-6 {
+    z-index: 2;
+    width: 1vmin;
+    height: 0.5vmin;
+    background: $bg-color;
+    top: -12.8vmin;
+    left: 32.5vmin;
+
+    &::before {
+      width: 2.5vmin;
+      height: 0.8vmin;
+      background: $dark-color;
+      top: 4.7vmin;
+      left: 1.8vmin;
+      transform: rotate(-5deg);
+    }
+
+    &::after {
+      width: 6vmin;
+      height: 0.9vmin;
+      background: $dark-color;
+      top: 2.55vmin;
+      left: 3.1vmin;
+      transform: rotate(-48deg);
+    }
+  }
+
+  &-7 {
+    z-index: 2;
+    width: 1.8vmin;
+    height: 0.5vmin;
+    background: $bg-color;
+    top: -4.3vmin;
+    left: 37.9vmin;
+    transform: rotate(-1deg);
+    border-radius: 50%;
+
+    &::before {
+      width: 0.5vmin;
+      height: 4vmin;
+      background: $bg-color;
+      top: -0.7vmin;
+      left: 2vmin;
+      transform: rotate(48deg);
+    }
+
+    &::after {
+      width: 11.9vmin;
+      height: 5vmin;
+      background: $dark-color;
+      top: 7.2vmin;
+      left: -15.6vmin;
+      transform: rotate(15deg);
+      border-radius: 0 0 2.2vmin 0;
+    }
+  }
+
+  &-8 {
+    z-index: 2;
+    width: 15vmin;
+    height: 13.6vmin;
+    background: $bg-color;
+    top: 3.7vmin;
+    left: 14.8vmin;
+    transform: rotate(-7deg) skewX(25deg);
+    border-radius: 8.4vmin 0 0 4vmin;
+
+    &::before {
+      width: 5vmin;
+      height: 0.6vmin;
+      background: $bg-color;
+      top: -0.1vmin;
+      left: 11vmin;
+      transform: rotate(1deg);
+      border-radius: 50%;
+    }
+
+    &::after {
+      width: 5.4vmin;
+      height: 10vmin;
+      background: $bg-color;
+      top: 0.3vmin;
+      left: 13.9vmin;
+      transform: rotate(9deg);
+      border-radius: 0 0 100% 0;
+    }
+  }
+
+  &-9 {
+    z-index: 2;
+    width: 4.5vmin;
+    height: 10vmin;
+    background: $bg-color;
+    top: 7vmin;
+    left: 35.2vmin;
+    transform: rotate(-30deg);
+
+    &::before {
+      width: 7.2vmin;
+      height: 1.1vmin;
+      background: $bg-color;
+      top: 5.3vmin;
+      left: -9.1vmin;
+      transform: rotate(30deg);
+      border-radius: 0 0 90% 0;
+    }
+  }
+
+  &-10 {
+    z-index: 2;
+    width: 15vmin;
+    height: 11.5vmin;
+    background: $dark-color;
+    top: 4.5vmin;
+    left: 16.3vmin;
+    transform: rotate(-3deg) skewX(24deg);
+    border-radius: 6vmin 0 7vmin 4vmin;
+
+    &::before {
+      width: 14vmin;
+      height: 7vmin;
+      background: $dark-color;
+      top: -1vmin;
+      left: 0.85vmin;
+      transform: skewX(-18deg) rotate(1deg);
+      border-radius: 58% 0 0 2vmin;
+    }
+
+    &::after {
+      width: 11vmin;
+      height: 1vmin;
+      background: $dark-color;
+      top: -1.2vmin;
+      left: 8vmin;
+      transform: rotate(0.5deg);
+      border-radius: 50%;
+    }
+  }
+
+  &-11 {
+    z-index: 2;
+    width: 13vmin;
+    height: 9.5vmin;
+    background: $dark-color;
+    top: 7.2vmin;
+    left: 23.5vmin;
+    transform: skewX(12.6deg) rotate(3deg);
+    border-radius: 0 0 78% 9%;
+
+    &::before {
+      width: 1.4vmin;
+      height: 6.5vmin;
+      background: $dark-color;
+      top: -1.65vmin;
+      left: 12vmin;
+      transform: rotate(12deg);
+      border-radius: 50%;
+    }
+
+    &::after {
+      width: 4vmin;
+      height: 2vmin;
+      background: $bg-color;
+      top: -4.2vmin;
+      left: 11vmin;
+    }
+  }
+
+  &-12 {
+    z-index: 2;
+    width: 1.3vmin;
+    height: 5vmin;
+    background: $dark-color;
+    top: -6.1vmin;
+    left: 32.4vmin;
+    transform: rotate(-45deg);
+    border-radius: 50%;
+
+    &::before {
+      width: 5vmin;
+      height: 5vmin;
+      background: $dark-color;
+      top: -0.5vmin;
+      left: -3vmin;
+      transform: rotate(35deg);
+      border-radius: 0 100% 0 0;
+    }
   }
 }
