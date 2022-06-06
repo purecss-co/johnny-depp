@@ -1700,3 +1700,80 @@ body {
     }
   }
 }
+
+.eyewear-left {
+  &-1 {
+    z-index: 2;
+    width: 17.5vmin;
+    height: 13vmin;
+    background: $dark-color;
+    top: 1.75vmin;
+    left: -27.3vmin;
+    transform: rotate(-2deg) skewX(-20deg);
+    border-radius: 0 9.4vmin 0 40%;
+
+    &::before {
+      width: 11vmin;
+      height: 3vmin;
+      background: $dark-color;
+      top: -1vmin;
+      left: -1vmin;
+    }
+
+    &::after {
+      width: 4vmin;
+      height: 4vmin;
+      background: $bg-color;
+      top: 10.6vmin;
+      left: 15vmin;
+    }
+  }
+}
+
+.eyewear-center {
+  &-1 {
+    z-index: 2;
+    width: 6vmin;
+    height: 0.9vmin;
+    background: $dark-color;
+    top: -1.7vmin;
+    left: -7vmin;
+
+    &::before {
+      width: 0.7vmin;
+      height: 3vmin;
+      background: $dark-color;
+      top: -2vmin;
+      left: 0.2vmin;
+      transform: rotate(-30deg);
+    }
+
+    &::after {
+      width: 0.7vmin;
+      height: 2.3vmin;
+      background: $dark-color;
+      top: 0.2vmin;
+      left: 0.5vmin;
+      transform: rotate(5deg);
+    }
+  }
+
+  &-2 {
+    z-index: 2;
+    width: 6.5vmin;
+    height: 0.8vmin;
+    background: $dark-color;
+    top: -6.5vmin;
+    left: -6.8vmin;
+    border-radius: 0 0 0 30%;
+
+    &::before {
+      width: 2vmin;
+      height: 2vmin;
+      background: $dark-color;
+      top: -1.7vmin;
+      left: -1vmin;
+      border-radius: 100% 0 0 0;
+    }
+  }
+}
