@@ -359,7 +359,7 @@ body {
       border-radius: 0 0 0.5vmin 0;
     }
 
-    &::before {
+    &::after {
       width: 0.3vmin;
       height: 6vmin;
       background: $bg-color;
