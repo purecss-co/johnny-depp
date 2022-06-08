@@ -333,8 +333,8 @@ body {
       width: 2vmin;
       height: 1vmin;
       background: $bg-color;
-      left: 1.2vmin;
       top: -0.25vmin;
+      left: 1.2vmin;
       border-radius: 0 0 20% 0;
     }
   }
@@ -437,7 +437,7 @@ body {
     top: 3.5vmin;
     left: -56.8vmin;
     transform: rotate(-2deg) skewY(-17deg);
-    border-radius: 100% 0% 0% 100% / 30% 100% 0% 70%;
+    border-radius: 100% 0 0 100% / 30% 100% 0 70%;
 
     &::before {
       width: 2vmin;
@@ -485,7 +485,7 @@ body {
       top: 2vmin;
       left: -2.7vmin;
       transform: skewY(-50deg) skewX(0deg);
-      border-radius: 100% 0% 0% 100% / 70% 100% 0% 30%;
+      border-radius: 100% 0 0 100% / 70% 100% 0 30%;
     }
   }
 
