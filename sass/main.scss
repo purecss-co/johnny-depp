@@ -26,12 +26,6 @@ body {
   }
 }
 
-.portrait {
-  width: 62vmin;
-  height: 83.5vmin;
-  //   outline: 0.2vmin solid red;
-}
-
 .hair {
   &-1 {
     width: 50vmin;
@@ -2695,6 +2689,63 @@ body {
       left: 3.2vmin;
       transform: rotate(-22deg);
       border-radius: 50%;
+    }
+
+    &::after {
+      width: 3vmin;
+      height: 3vmin;
+      background: $dark-color;
+      top: 4.5vmin;
+      left: 2.35vmin;
+      transform: skewX(11deg) skewY(-19deg);
+    }
+  }
+
+  &-9 {
+    z-index: 3;
+    width: 4vmin;
+    height: 5.5vmin;
+    background: $dark-color;
+    top: 48vmin;
+    left: 16.5vmin;
+    transform: skewY(10deg);
+    border-radius: 0 2.3vmin 0 0;
+
+    &::before {
+      width: 3vmin;
+      height: 4.5vmin;
+      background: $bg-color;
+      top: 3vmin;
+      transform: rotate(-45deg);
+      border-radius: 0 2.4vmin 0 0;
+    }
+
+    &::after {
+      width: 4.8vmin;
+      height: 2vmin;
+      background: $dark-color;
+      top: 2vmin;
+      left: -2.1vmin;
+      transform: skewY(-5deg);
+      border-radius: 50%;
+    }
+  }
+
+  &-10 {
+    z-index: 3;
+    width: 3.5vmin;
+    height: 0.5vmin;
+    background: $bg-color;
+    top: 49.3vmin;
+    left: 6.8vmin;
+    border-radius: 50%;
+
+    &::before {
+      width: 1vmin;
+      height: 1vmin;
+      background: $dark-color;
+      top: -2vmin;
+      left: 3vmin;
     }
   }
 }
