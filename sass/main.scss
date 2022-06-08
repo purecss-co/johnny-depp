@@ -3028,10 +3028,10 @@ body {
       width: 2.6vmin;
       height: 0.4vmin;
       background: $dark-color;
-      border-radius: 50%;
       top: 0.05vmin;
       left: 2.2vmin;
       transform: rotate(7deg);
+      border-radius: 50%;
     }
 
     &::after {
