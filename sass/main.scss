@@ -2958,7 +2958,7 @@ body {
   }
 
   &-8 {
-    z-index: 4;
+    z-index: 3;
     width: 1vmin;
     height: 0.5vmin;
     background: $bg-color;
@@ -3121,5 +3121,10 @@ body {
       left: -0.3vmin;
       transform: rotate(7deg);
     }
+  }
+}
+
+.soul-patch {
+  &-1 {
   }
 }
