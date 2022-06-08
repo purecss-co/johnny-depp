@@ -2156,3 +2156,105 @@ body {
     }
   }
 }
+
+.nose {
+  &-1 {
+    z-index: 3;
+    width: 1.4vmin;
+    height: 6.5vmin;
+    background: $dark-color;
+    top: 22vmin;
+    left: 8.4vmin;
+    transform: skewX(27deg);
+
+    &::before {
+      width: 1vmin;
+      height: 3.4vmin;
+      background: $bg-color;
+      top: 1vmin;
+      left: 1vmin;
+      transform: rotate(-4.5deg);
+      border-radius: 50%;
+    }
+
+    &::after {
+      width: 3.5vmin;
+      height: 0.8vmin;
+      background: $bg-color;
+      top: 1.35vmin;
+      left: 1.2vmin;
+      transform: skewY(22deg) skewX(-22deg);
+      border-radius: 0 0 0 0.3vmin;
+    }
+  }
+
+  &-2 {
+    z-index: 3;
+    width: 1vmin;
+    height: 1.6vmin;
+    background: $dark-color;
+    top: 26.8vmin;
+    left: 10.2vmin;
+    transform: skewX(10deg);
+
+    &::before {
+      width: 1.4vmin;
+      height: 2.15vmin;
+      background: $dark-color;
+      top: 1vmin;
+      left: 0.8vmin;
+      transform: skewX(35deg) skewY(-20deg);
+      border-radius: 0 0 100% 0;
+    }
+
+    &::after {
+      width: 3vmin;
+      height: 1.1vmin;
+      background: $dark-color;
+      top: 1.1vmin;
+      left: -2vmin;
+      transform: skewY(-15deg);
+    }
+  }
+
+  &-3 {
+    z-index: 3;
+    width: 4vmin;
+    height: 2vmin;
+    background: $dark-color;
+    top: 31.2vmin;
+    left: 2.5vmin;
+    transform: skewX(-30deg) skewY(-10deg);
+    border-radius: 100% 0 0.5vmin 0;
+
+    &::before {
+      width: 1.55vmin;
+      height: 0.7vmin;
+      background: $bg-color;
+      top: 0.25vmin;
+      left: 4vmin;
+      transform: rotate(-5deg);
+      border-radius: 50%;
+    }
+
+    &::after {
+      width: 2.6vmin;
+      height: 2vmin;
+      background: $dark-color;
+      top: -0.55vmin;
+      left: 0.25vmin;
+      transform: skewX(-30deg) skewY(12deg);
+      border-radius: 1vmin 0 0 0;
+    }
+  }
+
+  &-4 {
+    z-index: 3;
+    width: 1vmin;
+    height: 1vmin;
+    background: $dark-color;
+    top: 31.4vmin;
+    left: -1.1vmin;
+    transform: skewX(-64deg);
+  }
+}
