@@ -2749,3 +2749,65 @@ body {
     }
   }
 }
+
+.mouth {
+  &-1 {
+    z-index: 3;
+    width: 0.9vmin;
+    height: 3.5vmin;
+    background: $bg-color;
+    top: 37.8vmin;
+    left: -2.2vmin;
+    transform: rotate(-15deg) skewX(3deg) skewY(-10deg);
+    border-radius: 1vmin 0 0 0;
+
+    &::before {
+      width: 3.5vmin;
+      height: 2vmin;
+      background: $bg-color;
+      top: 1.5vmin;
+      left: -3.1vmin;
+      transform: rotate(12deg) skewX(-5deg);
+      border-radius: 0.3vmin 0 0 0;
+    }
+
+    &::after {
+      width: 2vmin;
+      height: 2.1vmin;
+      background: $dark-color;
+      top: 0.9vmin;
+      left: -2.1vmin;
+      transform: rotate(-1deg);
+      border-radius: 0 0 100% 20%;
+    }
+  }
+
+  &-2 {
+    z-index: 3;
+    width: 0.5vmin;
+    height: 1.5vmin;
+    background: $bg-color;
+    top: 37.6vmin;
+    left: -2.95vmin;
+    transform: rotate(-2deg);
+
+    &::before {
+      width: 1vmin;
+      height: 2vmin;
+      background: $dark-color;
+      top: 0.9vmin;
+      left: -2.2vmin;
+      transform: rotate(-44deg);
+      border-radius: 10%;
+    }
+
+    &::after {
+      width: 1vmin;
+      height: 1.3vmin;
+      background: $bg-color;
+      top: 2.3vmin;
+      left: 0.55vmin;
+      transform: rotate(-2deg);
+    }
+  }
+}
